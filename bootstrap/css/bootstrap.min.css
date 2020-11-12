@@ -6059,7 +6059,8 @@ a.badge-dark:focus {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    opacity: .5
+    opacity: .5;
+    margin-top: 20px;
 }
 
 .close:hover {
@@ -10403,7 +10404,7 @@ a.text-dark:hover {
 }
 
 .text-muted {
-    color: #868e96!important
+    color: #868e96
 }
 
 .text-black-50 {
@@ -10884,10 +10885,15 @@ a:hover {
     border-width: 2px
 }
 
-.bg-primary {
-    background-image: url("img/backgroundinicio.jpg");
-    background-color: #18bc9c
-}
+
+/*.bg-primary {
+    background-image: url("../img/backgroundinicio.jpg");
+    background-color: #18bc9b;
+    background-color: #137562;
+    background-size: cover;
+    background: rgb(42, 91, 121);
+    background: linear-gradient(90deg, rgba(42, 91, 121, 1) 0%, rgba(49, 135, 167, 1) 50%, rgba(21, 170, 125, 1) 100%);
+}*/
 
 .bg-secondary {
     background-color: #2c3e50!important

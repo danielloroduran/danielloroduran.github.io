@@ -366,7 +366,101 @@ hr {
     background: rgb(44, 62, 80);
 }
 
-header {
-    background-image: url("/img/backgroundinicio.jpg");
-    background-color: #04D5BA;
+.bg-primary {
+    background: linear-gradient(273deg, #26526e, #2f809e, #24c292);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+#conoceme {
+    background-color: #094049;
+}
+
+#conoceme h2 {
+    color: white;
+}
+
+#conoceme hr {
+    background-color: white;
+}
+
+#conoceme p {
+    text-align: justify;
+    color: white;
+}
+
+#formacion {
+    background-color: #f2f2f2;
+    ;
+}
+
+#habilidades {
+    background-color: #094049;
+}
+
+#habilidades h2 {
+    color: white;
+}
+
+#habilidades hr {
+    background-color: white;
+}
+
+#portfolio {
+    background-color: #f2f2f2;
+    ;
+}
+
+#contacto {
+    background-color: #094049;
+}
+
+#contacto h2 {
+    color: white;
+}
+
+#contacto hr {
+    background-color: white;
+}
+
+#contacto .text-muted {
+    color: white;
 }
