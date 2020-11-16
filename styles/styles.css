@@ -440,13 +440,33 @@ hr {
     color: white;
 }
 
+#habilidades h3 {
+    color: white;
+}
+
+#habilidades h5 {
+    text-align: center;
+    color: white;
+    margin-top: 20px
+}
+
 #habilidades hr {
     background-color: white;
 }
 
+#habilidades img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+    display: block;
+}
+
 #portfolio {
     background-color: #f2f2f2;
-    ;
+}
+
+#portfolio img {
+    border-radius: 25px;
 }
 
 #contacto {
