@@ -61,6 +61,10 @@ hr {
     background: rgb(44, 62, 80);
 }
 
+b {
+    font-weight: bold;
+}
+
 .bg-primary {
     background: linear-gradient(273deg, #26526e, #2f809e, #24c292);
     background-size: 600% 600%;
@@ -180,10 +184,34 @@ hr {
     color: white;
 }
 
+.ubicacion-contact {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 100%
+}
+
 @media screen and (max-width: 991px) {
     #contacto #emailContacto {
         margin-top: 30px;
     }
+}
+
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /*background-color: #2c3e50;*/
+    background-color: #1a252f;
+    color: #fff
+}
+
+.copyright {
+    background-color: #1a252f
 }
 
 #portfolioPopUps img {
