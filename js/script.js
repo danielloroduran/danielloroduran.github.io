@@ -63,12 +63,12 @@
 
     //Writing effect
 
-    const typed = new Typed('.typed', {
-        strings: ['<i class="effect">Estudiante de Ingeniería Informática</i>'],
+    var typed = new Typed('.typed', {
+        strings: ['<i class="effect">Estudiante de Ingeniería Informática</i>', '<i class="effect">Computer Engineering Student</i>'],
 
         typeSpeed: 80,
         backDelay: 1500,
-        loop: false,
+        loop: true,
         contentType: 'html',
     });
 

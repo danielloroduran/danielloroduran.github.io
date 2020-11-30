@@ -200,6 +200,18 @@ b {
     #contacto #emailContacto {
         margin-top: 30px;
     }
+    #subtittleCenter {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #contacto {
+        height: 35rem;
+    }
+    #subtittleCenter {
+        text-align: start;
+    }
 }
 
 .footer {
