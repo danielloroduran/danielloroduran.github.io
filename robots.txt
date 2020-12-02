@@ -1,0 +1,8 @@
+Sitemap: https://daniloro5.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /bootstrap/
+Disallow: /styles/
+Disallow: /js/
+Disallow: /img/
+Disallow: /README.md
