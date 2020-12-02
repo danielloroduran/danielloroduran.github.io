@@ -1,7 +1,7 @@
 # Sitio web personal 🖥️
 
 <p align="center">
-  <img src="img/portada.png" width=100%">
+  <img src="img/Portada.png" width=100%">
 </p>
 
 Pagina web personal en la que me presento, expongo mis conocimientos y formación y sirve para complementar mi CV. Puedes visitarla entrando en daniloro5.github.io
