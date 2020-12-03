@@ -61,15 +61,4 @@
         });
     });
 
-    //Writing effect
-
-    var typed = new Typed('.typed', {
-        strings: ['<i class="effect">Estudiante de Ingeniería Informática</i>', '<i class="effect">Computer Engineering Student</i>'],
-
-        typeSpeed: 80,
-        backDelay: 1500,
-        loop: true,
-        contentType: 'html',
-    });
-
 })(jQuery); // End of use strict

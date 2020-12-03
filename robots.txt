@@ -6,3 +6,4 @@ Disallow: /styles/
 Disallow: /js/
 Disallow: /img/
 Disallow: /README.md
+Disallow: /404.html
