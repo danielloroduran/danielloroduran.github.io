@@ -65,6 +65,10 @@ b {
     font-weight: bold;
 }
 
+b .hello {
+    font-size: 30px;
+}
+
 .bg-primary {
     background: linear-gradient(273deg, #26526e, #2f809e, #24c292);
     background-size: 600% 600%;
@@ -302,6 +306,171 @@ b {
 }
 
 
-/*.error-class {
+/* ANIMACIÓN DEL EMOJI */
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate( 0.0deg)
+    }
+    10% {
+        transform: rotate(14.0deg)
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+    30% {
+        transform: rotate(14.0deg)
+    }
+    40% {
+        transform: rotate(-4.0deg)
+    }
+    50% {
+        transform: rotate(10.0deg)
+    }
+    60% {
+        transform: rotate( 0.0deg)
+    }
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate( 0.0deg)
+    }
+}
+
+
+/* TIMELINE EN FORMACIÓN */
+
+.main-timeline {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.main-timeline:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.main-timeline:before {
+    content: '';
+    background-color: #fff;
     height: 100%;
-}*/
+    width: 20px;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.main-timeline .timeline {
+    width: 50%;
+    padding: 0 60px 0 0;
+    margin: 0 10px 20px 0;
+    float: left;
+}
+
+.main-timeline .timeline-content {
+    background: #fff;
+    text-align: center;
+    min-height: 125px;
+    padding: 0 0 20px;
+    border-radius: 15px;
+    display: block;
+    position: relative;
+}
+
+.main-timeline .timeline-content:hover {
+    text-decoration: none;
+}
+
+.main-timeline .timeline-icon {
+    color: #fff;
+    background-color: #17a2b8;
+    font-size: 45px;
+    line-height: 93px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -110px;
+}
+
+.main-timeline .title {
+    color: #fff;
+    background-color: #17a2b8;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0 0 20px;
+    border-radius: 25px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-timeline .description {
+    color: #333;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin: 0 25px 0;
+}
+
+.main-timeline .timeline:nth-child(even) {
+    float: right;
+    padding: 0 0 0 60px;
+    margin: 0 0 20px 10px;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+    right: auto;
+    left: -110px;
+}
+
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon,
+.main-timeline .timeline:nth-child(4n+2) .title {
+    background-color: #dc3545;
+}
+
+@media screen and (max-width:767px) {
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even) {
+        width: 100%;
+        padding: 0 110px 0 0;
+        margin: 0 0 20px 0;
+    }
+    .main-timeline .timeline:nth-child(even) {
+        padding: 0 0 0 110px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even) {
+        padding: 110px 0 0;
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
+        transform: translateY(0) translateX(-50%);
+        top: -110px;
+        left: 50%;
+        right: auto;
+    }
+}
