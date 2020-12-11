@@ -77,14 +77,6 @@ b .hello {
     animation: CoverAnimation 10s ease infinite;
 }
 
-.bg-error {
-    background: linear-gradient(273deg, #26526e, #2f809e, #24c292);
-    background-size: 600% 600%;
-    -webkit-animation: CoverAnimation 10s ease infinite;
-    -moz-animation: CoverAnimation 10s ease infinite;
-    animation: CoverAnimation 10s ease infinite;
-}
-
 @-webkit-keyframes CoverAnimation {
     0% {
         background-position: 0% 50%
@@ -122,30 +114,14 @@ b .hello {
 }
 
 .error-section {
-    background: linear-gradient(270deg, #fe0000, #ff7816);
+    /*background: linear-gradient(270deg, #fe0000, #ff7816);*/
+    background: linear-gradient(273deg, #26526e, #2f809e);
     background-size: 400% 400%;
     -webkit-animation: error 11s ease infinite;
     -moz-animation: error 11s ease infinite;
     animation: error 11s ease infinite;
-    padding-top: calc(1rem + 72px);
+    padding-top: calc(1rem + 80px);
     padding-bottom: 6rem;
-}
-
-@media (min-width:576px) {
-    .error-section {
-        min-height: 100%;
-        max-height: 100%;
-    }
-}
-
-.error-section h1 {
-    font-size: 3rem;
-    line-height: 3rem;
-}
-
-.error-section h2 {
-    font-size: 1.3rem;
-    font-family: Lato;
 }
 
 @-webkit-keyframes error {
@@ -182,6 +158,23 @@ b .hello {
     100% {
         background-position: 0% 50%
     }
+}
+
+@media (min-width:576px) {
+    .error-section {
+        min-height: 100%;
+        max-height: 100%;
+    }
+}
+
+.error-section h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.error-section h2 {
+    font-size: 1.3rem;
+    font-family: Lato;
 }
 
 #conoceme {

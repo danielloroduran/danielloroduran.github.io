@@ -1,10 +1,10 @@
 # Sitio web personal 🖥️
 
 <p align="center">
-  <img src="img/Portada.png" width=100%">
+  <img src="img/Portada.png" width="100%">
 </p>
 
-Pagina web personal en la que me presento, expongo mis conocimientos y formación y sirve para complementar mi CV. Puedes visitarla entrando en daniloro5.github.io
+Pagina web personal en la que me presento, expongo mis conocimientos y formación y sirve para complementar mi CV. Puedes visitarla entrando en http://daniloro5.github.io
 
 ## Posicionamiento en Internet 📊
 Utilizando las técnicas y herramientas aprendidas en la asignatura de __Comercio Electróncio__, he intentado mejorar el posicionamiento SEO utilizando:
@@ -17,4 +17,4 @@ Utilizando las técnicas y herramientas aprendidas en la asignatura de __Comerci
 * HTML5
 * CSS
 * Javascript
-* Bootstrap 4
+* Bootstrap 4 (diseño responsive)
