@@ -54,6 +54,9 @@
     }
 }
 
+
+/**************************************/
+
 hr {
     position: relative;
     border: none;
@@ -68,6 +71,9 @@ b {
 b .hello {
     font-size: 30px;
 }
+
+
+/* Efecto animado en el fondo de header */
 
 .bg-primary {
     background: linear-gradient(273deg, #26526e, #2f809e, #24c292);
@@ -112,6 +118,9 @@ b .hello {
         background-position: 0% 50%
     }
 }
+
+
+/* Efecto animado en la página 404 */
 
 .error-section {
     /*background: linear-gradient(270deg, #fe0000, #ff7816);*/
@@ -177,6 +186,9 @@ b .hello {
     font-family: Lato;
 }
 
+
+/* Conóceme */
+
 #conoceme {
     background-color: #094049;
 }
@@ -194,9 +206,15 @@ b .hello {
     color: white;
 }
 
+
+/* Formación */
+
 #formacion {
     background-color: #f2f2f2;
 }
+
+
+/* Habilidades */
 
 #habilidades {
     background-color: #094049;
@@ -227,6 +245,9 @@ b .hello {
     display: block;
 }
 
+
+/* Portfolio */
+
 #portfolio {
     background-color: #f2f2f2;
 }
@@ -234,6 +255,9 @@ b .hello {
 #portfolio img {
     border-radius: 25px;
 }
+
+
+/* Contacto */
 
 #contacto {
     background-color: #094049;
@@ -282,6 +306,9 @@ b .hello {
     }
 }
 
+
+/* Footer */
+
 .footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -299,7 +326,7 @@ b .hello {
 }
 
 
-/* ANIMACIÓN DEL EMOJI */
+/* Animación del emoji */
 
 .wave {
     animation-name: wave-animation;
@@ -343,7 +370,7 @@ b .hello {
 }
 
 
-/* TIMELINE EN FORMACIÓN */
+/* TIMELINE */
 
 .main-timeline {
     font-family: 'Raleway', sans-serif;
