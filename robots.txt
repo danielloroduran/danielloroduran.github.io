@@ -1,4 +1,4 @@
-Sitemap: https://daniloro5.github.io/sitemap.xml
+Sitemap: https://danielloroduran.github.io/sitemap.xml
 
 User-agent: *
 Disallow: /bootstrap/
