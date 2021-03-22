@@ -4,7 +4,7 @@
   <img src="img/Portada.png" width="100%">
 </p>
 
-Pagina web personal en la que me presento, expongo mis conocimientos y formación y sirve para complementar mi CV. Puedes visitarla entrando en http://daniloro5.github.io
+Pagina web personal en la que me presento, expongo mis conocimientos y formación y sirve para complementar mi CV. Puedes visitarla entrando en http://danielloroduran.github.io
 
 ## Posicionamiento en Internet 📊
 Utilizando las técnicas y herramientas aprendidas en la asignatura de __Comercio Electrónico__, he intentado mejorar el posicionamiento SEO utilizando:
