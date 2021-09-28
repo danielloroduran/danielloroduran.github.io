@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.96b78ebb.chunk.css",
+    "main.js": "/home/static/js/main.0c17a6a6.chunk.js",
+    "main.js.map": "/home/static/js/main.0c17a6a6.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.d76392a6.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.d76392a6.js.map",
+    "static/js/2.0cebefd2.chunk.js": "/home/static/js/2.0cebefd2.chunk.js",
+    "static/js/2.0cebefd2.chunk.js.map": "/home/static/js/2.0cebefd2.chunk.js.map",
+    "index.html": "/home/index.html",
+    "static/css/main.96b78ebb.chunk.css.map": "/home/static/css/main.96b78ebb.chunk.css.map",
+    "static/js/2.0cebefd2.chunk.js.LICENSE.txt": "/home/static/js/2.0cebefd2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/home/static/media/sobremi.98bafde7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d76392a6.js",
+    "static/js/2.0cebefd2.chunk.js",
+    "static/css/main.96b78ebb.chunk.css",
+    "static/js/main.0c17a6a6.chunk.js"
+  ]
+}

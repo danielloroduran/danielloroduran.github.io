@@ -1,9 +1,0 @@
-Sitemap: https://danielloroduran.github.io/sitemap.xml
-
-User-agent: *
-Disallow: /bootstrap/
-Disallow: /styles/
-Disallow: /js/
-Disallow: /img/
-Disallow: /README.md
-Disallow: /404.html
