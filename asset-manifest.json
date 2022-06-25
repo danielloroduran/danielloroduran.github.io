@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e265d98d.chunk.css",
-    "main.js": "/static/js/main.b3ca7cba.chunk.js",
-    "main.js.map": "/static/js/main.b3ca7cba.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7c3c2118.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7c3c2118.js.map",
-    "static/js/2.80aba1b9.chunk.js": "/static/js/2.80aba1b9.chunk.js",
-    "static/js/2.80aba1b9.chunk.js.map": "/static/js/2.80aba1b9.chunk.js.map",
+    "main.css": "/static/css/main.dba3452a.css",
+    "main.js": "/static/js/main.7ce11e9c.js",
+    "static/media/background.svg": "/static/media/background.43ade772b085e6afec54.svg",
     "index.html": "/index.html",
-    "static/css/main.e265d98d.chunk.css.map": "/static/css/main.e265d98d.chunk.css.map",
-    "static/js/2.80aba1b9.chunk.js.LICENSE.txt": "/static/js/2.80aba1b9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/sobremi.98bafde7.jpg"
+    "main.dba3452a.css.map": "/static/css/main.dba3452a.css.map",
+    "main.7ce11e9c.js.map": "/static/js/main.7ce11e9c.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c3c2118.js",
-    "static/js/2.80aba1b9.chunk.js",
-    "static/css/main.e265d98d.chunk.css",
-    "static/js/main.b3ca7cba.chunk.js"
+    "static/css/main.dba3452a.css",
+    "static/js/main.7ce11e9c.js"
   ]
 }
